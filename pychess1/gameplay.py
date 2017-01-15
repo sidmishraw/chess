@@ -3,14 +3,12 @@
 # @Author: Sidharth Mishra
 # @Date:   2017-01-12 17:57:48
 # @Last Modified by:   Sidharth Mishra
-# @Last Modified time: 2017-01-14 15:57:29
+# @Last Modified time: 2017-01-14 16:42:02
 
 
 __author__ = """Sidharth Mishra"""
 __email__ = 'sidharth.mishra@sjsu.edu'
 __version__ = '0.0.1'
-
-
 
 
 # The board consists of 8 x 8 squares (of white/black colors alternating
@@ -24,7 +22,7 @@ __version__ = '0.0.1'
 
 class ChessBoard(object):
   '''The chess board itself.'''
-  
+
   def __init__(self):
     '''
     The board will initialize with 8 x 8 squares. The colors will alternate
@@ -33,7 +31,7 @@ class ChessBoard(object):
     '''
 
     # A list of squares.
-    self.__squares = [];
+    self.__squares = []
 
     prev_color = None
     allow_promotion = False
@@ -147,7 +145,3 @@ class Square(object):
     receive a promotion if it reaches the last row square.'''
 
     pass
-
-
-
-
